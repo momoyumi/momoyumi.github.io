@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  background-color: #f0f8ff;
+}
+
+#result {
+  font-size: 2em;
+  margin-top: 20px;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 999px;
+  background-color: hotpink;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+/* ← これがホバー時の色変化！ */
+button:hover {
+  background-color: #ff1493; /* 少し濃いピンク */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+
+}
+h1 {
+  font-family: "Kosugi Maru", sans-serif; /* 丸文字フォント */
+  color: #ff69b4; /* 明るめのピンク */
+}
