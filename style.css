@@ -3,6 +3,16 @@ body {
   text-align: center;
   padding-top: 100px;
   background-color: #f0f8ff;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  margin: 0;
+  height: 100vh; /* ← 画面の高さを100%にする */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* ← 縦方向に中央寄せ */
+  align-items: center;      /* ← 横方向にも中央寄せ */
+
 }
 
 #result {
