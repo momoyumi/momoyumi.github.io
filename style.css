@@ -12,6 +12,8 @@ body {
   flex-direction: column;
   justify-content: center; /* ← 縦方向に中央寄せ */
   align-items: center;      /* ← 横方向にも中央寄せ */
+    font-size: 18px; /* ← これを追加！全体の文字サイズを指定 */
+
 
 }
 
